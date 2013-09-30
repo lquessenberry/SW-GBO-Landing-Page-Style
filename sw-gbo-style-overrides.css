@@ -1,0 +1,164 @@
+/****************************************************************************************************/
+/*! Author: Lee Quessenberry                                                                        */
+/*                                                                                                  */
+/*  Project: Surplus Warehouse / Bargain Outlets Landing Page Stylesheets                           */
+/*                                                                                                  */
+/*  Description: This stylesheet contains code that is embedded into a styling rule created by the  */
+/*  CSS Injector Module for Drupal. It is intended to provide color, fonts, and basic positioning   */
+/*  tweaks as overrides for the Tweme project (http://drupal.org/project/tweme). Tweme is           */
+/*  a responsive theme for Drupal that uses Twitter Bootstrap 2.3.2 as a basis for layout and       */
+/*  responsive grids with basic UI/UX elements included.                                            */
+/****************************************************************************************************/
+
+
+body {
+font-family:Verdana,Arial,sans-serif;
+font-size: 14px;
+line-height: 20px;
+color: #333333;
+}
+
+#carousel {
+    min-height: 500px;
+}
+
+#carousel .item {
+min-height: 345px;
+padding: 60px 10% 10% 10%;
+text-align: center;
+width: 80%;
+color: white;
+}
+
+.carousel-inner {
+    overflow: visible ;
+    position: relative;
+    width: 100%;
+}
+
+a.btn.btn-primary.form-submit.btn-large {
+    margin-top: 3%;
+}
+
+#carousel h1 {
+    text-shadow: 0px 0px 15px #000;
+}
+
+#carousel p {
+    text-shadow: 0px 0px 5px #000;
+}
+
+div.navbar-inner {
+    background: white;
+    color: #454545;
+}
+
+div.navbar-inner a.active {
+    color: #262626;
+}
+
+header.container-wrapper div.container h1 {
+    text-align: center;
+}
+
+#carousel .carousel-control {
+background-color: transparent;
+border: 0;
+color: white;
+font-size: 100px;
+line-height: 100px;
+top: 50%;
+height: 100px;
+margin-top: -50px;
+}
+
+.navbar-inverse .navbar-inner {
+background: #ffffff;
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5));
+background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%);
+background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+
+#header {
+background-color: #cc0000;
+border-bottom: 1px solid #e5e5e5;
+padding-top: 20px;
+color: white;
+}
+
+.left {
+text-align: left;
+}
+
+.right {
+text-align: right;
+}
+
+.center {
+text-align: center;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav>li>a {
+color: black !important;
+text-shadow: 0 1px 0 #ffffff !important;
+font-family:Verdana, "Times New Roman", Times, serif;
+font-size: 1.1em;
+}
+
+.navbar-inverse .nav>li>a {
+background: transparent: important;
+}
+
+.navbar-inverse .nav>li>a:hover {
+    color: #CC0000 !important;
+    background: #dedede;
+}
+
+.navbar-inverse .nav>li>a:active {
+    color: #CC0000 !important;
+    background: #dedede !important;
+}
+
+.flexslider:hover .flex-direction-nav a, .flexslider:hover .flex-direction-nav a {
+display: block;
+overflow: visible;
+}
+
+.btn-primary {
+color: white;
+background: #01163d; /* Old browsers */
+background: -moz-linear-gradient(top,  #01163d 0%, #01163d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01163d), color-stop(100%,#01163d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #01163d 0%,#01163d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #01163d 0%,#01163d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #01163d 0%,#01163d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #01163d 0%,#01163d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01163d', endColorstr='#01163d',GradientType=0 ); /* IE6-9 */
+}
+
+btn-primary:active{
+color: white;
+background: #02225e; /* Old browsers */
+background: -moz-linear-gradient(top,  #02225e 0%, #02225e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#02225e), color-stop(100%,#02225e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #02225e 0%,#02225e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #02225e 0%,#02225e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #02225e 0%,#02225e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #02225e 0%,#02225e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#02225e', endColorstr='#02225e',GradientType=0 ); /* IE6-9 */
+}
+
+.block > h2 {
+text-transform: none;
+color: #333;
+font-size: 1.4em;
+font-weight: bold;
+}
+
+.breadcrumb {
+display: none;
+}
